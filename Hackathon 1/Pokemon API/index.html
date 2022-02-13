@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokemon-API</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="section-heading">
+        <div class="main-heading"><h1>KNOW ABOUT POKIMON</h1></div>
+        <p>( Click on the character Name to Know more )</p>
+      </section>
+      <section class="section-body">
+        <div class="pokeimages">
+          <div>
+            <img
+              class="image1"
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+            />
+            <button onclick="getPokemon(1)">
+              <p class="image-name1">Bulbasaur</p>
+            </button>
+          </div>
+          <div class="image2">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+            />
+            <button onclick="getPokemon(2)">
+              <p class="image-name1">ivysaur</p>
+            </button>
+          </div>
+          <div class="image3">
+           
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+            />
+            <button onclick="getPokemon(3)">
+            <p class="image-name1">venusaur</p>
+          </div>
+        </button>
+          <div class="image4">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+            />
+           <button onclick="getPokemon(4)"> <p class="image-name1">charmander</p></button>
+          </div>
+          <div class="image5">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+            />
+            <button onclick="getPokemon(5)"><p class="image-name1">charmeleon</p></button>
+          </div>
+          <div class="image6">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+            />
+            <button onclick="getPokemon(6)"><p class="image-name1">charizard</p></button>
+          </div>
+          <div class="image7">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+            />
+            <button onclick="getPokemon(7)"> <p class="image-name1">squirtle</p></button>
+           
+          </div>
+          <div class="image8">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+            />
+            <button onclick="getPokemon(8)"> <p class="image-name1">wartortle</p></button>
+           
+          </div>
+          <div class="image9">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+            />
+            <button onclick="getPokemon(9)"> <p class="image-name1">blastoise</p></button>
+           
+          </div>
+          <div class="image10">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png"
+            />
+            <button onclick="getPokemon(10)"> <p class="image-name1">caterpie</p></button>
+           
+          </div>
+          <div class="image11">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png"
+            />
+            <button onclick="getPokemon(11)"> <p class="image-name1">metapod</p></button>
+           
+          </div>
+          <div class="image12">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png"
+            />
+            <button onclick="getPokemon(12)"> <p class="image-name1">butterfree</p></button>
+           
+          </div>
+          <div class="image13">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png"
+            />
+            <button onclick="getPokemon(13)"> <p class="image-name1">weedle</p></button>
+           
+          </div>
+          <div class="image14">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png"
+            />
+            <button onclick="getPokemon(14)"><p class="image-name1">kakuna</p></button>
+            
+          </div>
+          <div class="image15">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+            />
+            <button onclick="getPokemon(15)"><p class="image-name1">beedrill</p></button>
+            
+          </div>
+          <div class="image16">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png"
+            />
+            <button onclick="getPokemon(16)"><p class="image-name1">pidgey</p></button>
+            
+          </div>
+          <div class="image17">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png"
+            />
+            <button onclick="getPokemon(17)"> <p class="image-name1">pidgeotto</p></button>
+           
+          </div>
+          <div class="image18">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png"
+            />
+            <button onclick="getPokemon(18)"> <p class="image-name1">pidgeot</p></button>
+           
+          </div>
+          <div class="image19">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png"
+            />
+            <button onclick="getPokemon(19)"><p class="image-name1">rattata</p></button>
+            
+          </div>
+          <div class="image20">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png"
+            />
+            <button onclick="getPokemon(20)"> <p class="image-name1">raticate</p></button>
+           
+          </div>
+          <div class="image21">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png"
+            />
+            <button onclick="getPokemon(21)"> <p class="image-name1">spearow</p></button>
+           
+          </div>
+          <div class="image22">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png"
+            />
+            <button onclick="getPokemon(22)"> <p class="image-name1">fearow</p></button>
+           
+          </div>
+          <div class="image23">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+            />
+            <button onclick="getPokemon(23)"><p class="image-name1">ekans</p></button>
+            
+          </div>
+          <div class="image24">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png"
+            />
+            <button onclick="getPokemon(24)"> <p class="image-name1">arbok</p></button>
+           
+          </div>
+          <div class="image25">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+            />
+            <button onclick="getPokemon(25)"> <p class="image-name1">pikachu</p></button>
+           
+          </div>
+          <div class="image26">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+            />
+            <button onclick="getPokemon(26)"><p class="image-name1">raichu</p></button>
+            
+          </div>
+          <div class="image27">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png"
+            />
+            <button onclick="getPokemon(27)"><p class="image-name1">sandshrew</p></button>
+            
+          </div>
+          <div class="image28">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png"
+            />
+            <button onclick="getPokemon(28)"><p class="image-name1">sandslash</p></button>
+            
+          </div>
+          <div class="image29">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png"
+            />
+            <button onclick="getPokemon(29)"><p class="image-name1">nidoran-f</p></button>
+            
+          </div>
+          <div class="image30">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png"
+            />
+            <button onclick="getPokemon(30)"> <p class="image-name1">nidorina</p>
+            </div></button>
+           
+          <div class="image31">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png"
+            />
+            <button onclick="getPokemon(31)"><p class="image-name1">nidoqueen</p></button>
+            
+          </div>
+          <div class="image32">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png"
+            />
+            <button onclick="getPokemon(32)"> <p class="image-name1">nidoran-m</p></button>
+           
+          </div>
+          <div class="image33">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png"
+            />
+            <button onclick="getPokemon(33)"><p class="image-name1">nidorino</p></button>
+            
+          </div>
+          <div class="image34">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png"
+            />
+            <button onclick="getPokemon(34)"><p class="image-name1">nidoking</p></button>
+            
+          </div>
+          <div class="image35">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png"
+            />
+            <button onclick="getPokemon(35)"><p class="image-name1">clefairy</p></button>
+            
+          </div>
+          <div class="image36">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png"
+            />
+            <button onclick="getPokemon(36)"><p class="image-name1">clefable</p></button>
+            
+          </div>
+          <div class="image37">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png"
+            />
+            <button onclick="getPokemon(37)"><p class="image-name1">vulpix</p></button>
+            
+          </div>
+          <div class="image38">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png"
+            />
+            <button onclick="getPokemon(38)"><p class="image-name1">ninetales</p></button>
+            
+          </div>
+          <div class="image39">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+            />
+            <button onclick="getPokemon(39)"><p class="image-name1">jigglypuff</p></button>
+            
+          </div>
+          <div class="image40">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png"
+            />
+            <button onclick="getPokemon(40)"><p class="image-name1">wigglytuff</p></button>
+            
+          </div>
+          <div class="image41">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png"
+            />
+            <button onclick="getPokemon(41)"><p class="image-name1">zubat</p></button>
+            
+          </div>
+          <div class="image42">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png"
+            />
+            <button onclick="getPokemon(42)"><p class="image-name1">golbat</p></button>
+            
+          </div>
+          <div class="image43">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png"
+            />
+            <button onclick="getPokemon(43)"><p class="image-name1">oddish</p></button>
+            
+          </div>
+          <div class="image44">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png"
+            />
+            <button onclick="getPokemon(44)"><p class="image-name1">gloom</p></button>
+            
+          </div>
+          <div class="image45">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png"
+            />
+            <button onclick="getPokemon(45)"><p class="image-name1">vileplume</p></button>
+            
+          </div>
+          <div class="image46">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png"
+            />
+            <button onclick="getPokemon(46)"><p class="image-name1">paras</p></button>
+            
+          </div>
+          <div class="image47">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png"
+            />
+            <button onclick="getPokemon(47)"> <p class="image-name1">parasect</p></button>
+           
+          </div>
+          <div class="image48">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png"
+            />
+            <button onclick="getPokemon(48)"><p class="image-name1">venonat</p></button>
+            
+          </div>
+          <div class="image49">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png"
+            />
+            <button onclick="getPokemon(49)"><p class="image-name1">venomoth</p></button>
+            
+          </div>
+          <div class="image50">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png"
+            />
+            <button onclick="getPokemon(50)"> <p class="image-name1">diglett</p></button>
+           
+          </div>
+        </div>
+        <div class="poke-details">
+          <div class="detail-img">
+            <img class="detail-image-info" src="img/question.png" />
+          </div>
+          <div class="detail-info">
+            <div class="info-Name">
+              <div><p>Name :</p></div>
+              <div><p class="name-value re-but">*******</p></div>
+            </div>
+            <div class="info-Ability">
+              <div><p>Ability :</p></div>
+              <div><p class="ability-value re-but">*******</p></div>
+            </div>
+            <div class="info-Moves">
+              <div><p>Moves :</p></div>
+              <div><p class="moves-value re-but">*******</p></div>
+            </div>
+            <div class="info-Weight">
+              <div><p>Weight :</p></div>
+              <div><p class="weight-value re-but">*******</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
